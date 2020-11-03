@@ -96,7 +96,7 @@ namespace NUnitTestAptimeaLappolainen
             Thread.Sleep(100);
             IWebElement sButton5 = driver.FindElement(By.XPath("//*[@value='Se connecter']"));
             try { sButton5.Click(); } catch (Exception) { }
-            Thread.Sleep(1000000);
+            Thread.Sleep(8000);
         }
         [TearDown]
         public void close_Browser()
